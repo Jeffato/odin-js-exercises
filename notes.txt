@@ -1,0 +1,51 @@
+5 - 7
+Template strings can be defined using backticks and $[]
+
+Ex: `This is a template with ${numVars} variable.`
+
+For loops like java
+dont forget const / let
+string length -> string.length
+
+8
+Rest operator: ... -> Create array with the other args
+
+ForEach Syntax
+arrayName.forEach((element) => function(element));
+
+Filter Syntax
+arrayName.filter((element) => element conditional);
+
+9
+Number.isInteger(num)
+Ternary
+condition ? True : False
+
+11
+.toFixed(num) -> Truncates number to num dps, but converts to string.
++string converts to number
+
+Other solution: mult 10, Math.round to nearest int, / 10
+
+12
+Power -> Math.pow
+
+Array addition/subtraction can be done with reduce
+
+13
+String methods
+- toLowerCase()
+- split(delimitter) -> takes string and splits by delimitter into an array
+- join(delimitter) -> joins array items separated by delimitter
+
+14
+string to num -> parseInt
+
+15
+map -> array of same length w/ some modification
+
+16
+reduce function
+Callback Function : Accumulator, currentValue (item in the array)
+Initial value of the accumulator
+=> block of code to do, or function to run
