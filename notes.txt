@@ -11,6 +11,15 @@ Arr.sort()
 	Takes a function 
 	Inc (a,b) => a -b
 	Dec (a,b) => b -a
+
+Array methods
+filter
+map
+reduce
+some
+every
+find
+findIndex
 	
 General Loop Notes
 
