@@ -1,3 +1,32 @@
+Array notes
+Push/pop at the end
+Shift -> pop from front
+Unshift -> insert in front
+Splice(index, num) -> remove num items starting at index. If num = 0, then can insert
+Slice(start, end) -> copy from start to end (not including end)
+
+Arr.length -> largest index + 1
+
+Arr.sort()
+	Takes a function 
+	Inc (a,b) => a -b
+	Dec (a,b) => b -a
+	
+General Loop Notes
+
+for
+while
+do while
+labels
+    -> can label outer loops to break out. Below break out of the outer loop and continue
+
+    outer: for(...){
+        for(...){
+            if (cond) { break outer;}
+        }
+    }
+
+
 5 - 7
 Template strings can be defined using backticks and $[]
 
